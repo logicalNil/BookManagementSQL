@@ -54,8 +54,7 @@ Ensure you have the following installed:
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/yourusername/bookstore-management.git](https://github.com/yourusername/bookstore-management.git)
-    cd bookstore-management/backend
+    git clone https://github.com/logicalNil/BookManagementSQL
     ```
 
 2.  Configure the database:
