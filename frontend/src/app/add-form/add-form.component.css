@@ -1,0 +1,79 @@
+/* Dialog Container */
+.dialog-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+  }
+  
+  /* Form Fields */
+  mat-form-field {
+    width: 100%;
+  }
+  
+  /* Dialog Actions */
+  .dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Cancel Button */
+  button[mat-button] {
+    background: #f3f4f6;
+    color: #374151;
+    border: 1px solid #d1d5db;
+  }
+  
+  button[mat-button]:hover {
+    background: #e5e7eb;
+    transform: scale(1.05);
+  }
+  
+  /* Add Button */
+  button[mat-raised-button] {
+    background: #3b82f6;
+    color: white;
+  }
+  
+  button[mat-raised-button]:hover {
+    background: #2563eb;
+    transform: scale(1.05);
+  }
+  
+  /* Dialog Title */
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #374151;
+  }
+  
+  /* Improve Form Field Appearance */
+  mat-form-field {
+    background: #f9fafb;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  /* Input Field Styling */
+  input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  

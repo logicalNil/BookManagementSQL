@@ -1,0 +1,29 @@
+<div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
+    <div class="btn-container">
+      <button (click)="onAddBook()" class="add-btn">Add</button>
+      <button (click)="onEditBook()" class="update-btn" [disabled]="isUpdateDisabled">Update</button>
+      <button (click)="deleteSelected()" class="dlt-btn" [disabled]="isDeleteDisabled">Delete</button>
+    </div>
+  
+    <table>
+      <thead>
+        <tr>
+          <th><input type="checkbox" (change)="toggleSelectAll($event)"></th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Price</th>
+          <th>Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let book of books">
+          <td><input type="checkbox" [(ngModel)]="book.selected" (change)="onRowSelect()"></td>
+          <td>{{ book.title }}</td>
+          <td>{{ book.author }}</td>
+          <td>{{ book.price | currency:'INR' }}</td>
+          <td>{{ book.genre }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
