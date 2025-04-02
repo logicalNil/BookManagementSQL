@@ -1,59 +1,65 @@
-# Frontend
+# Bookstore Management System - Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+![Angular](https://img.shields.io/badge/Angular-16+-red.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue.svg)
+![Angular Material](https://img.shields.io/badge/Angular_Material-16+-purple.svg)
 
-## Development server
+The frontend component of the **Bookstore Management System**, built with **Angular**, providing a responsive user interface for managing books efficiently.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 📖 Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Development](#development)
+- [Testing](#testing)
+- [API Integration](#api-integration)
+- [Deployment](#deployment)
+- [FAQ](#faq)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## ✨ Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+✅ **Responsive UI** built with Angular Material  
+✅ **CRUD Operations** for managing books  
+✅ **Form Validation** using reactive forms  
+✅ **Bulk Operations** for managing multiple books  
+✅ **Sorting & Pagination** for better organization  
+✅ **Error Handling** with user-friendly messages  
+✅ **Dark/Light Mode Toggle** (optional)  
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Tech Stack
 
-```bash
-ng generate --help
-```
+### 🌐 Frontend
+- **Angular 16+**
+- **TypeScript 4.9+**
+- **RxJS** for reactive programming
+- **Angular Material** for UI components
+- **Angular Flex Layout** (optional)
+- **NgRx** (optional for state management)
 
-## Building
+---
 
-To build the project run:
+## 📋 Prerequisites
 
-```bash
-ng build
-```
+Ensure you have the following installed:
+- **Node.js 18+**
+- **Angular CLI 16+**
+- **npm 9+** or **yarn**
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🚀 Installation
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 🏗️ Setting Up the Frontend
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/logicalNil/BookManagementSQL
+   cd frontend
