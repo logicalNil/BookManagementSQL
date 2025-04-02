@@ -89,3 +89,5 @@ Ensure you have the following installed:
     ```
 
 4.  The application will be available at: `http://localhost:4200/`
+
+![Screenshot](Sample.png)
